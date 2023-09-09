@@ -1,8 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 
 const DashboardPage = () => {
     return (
-     <Button variant="default">Click Me</Button>
+     <div>
+        <p>Dashboard Page (Protected)</p>
+        <UserButton />
+    </div>
     )
 }
 
